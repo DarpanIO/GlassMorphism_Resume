@@ -246,7 +246,6 @@ ul{
     display: flex;
     /* box-shadow: 0px 0px 2px #7575757c; */
 border-radius: 10px;
-overflow: hidden;
 
 }
 .vert-card .card-img{
