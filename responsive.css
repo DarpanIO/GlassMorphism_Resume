@@ -1,7 +1,7 @@
 @media screen and (max-width:740px) {
     .box1{
         flex-direction: column;
-        min-width: 95vw;
+        min-width: 92vw;
     }
     .box2{
         width: 100%;

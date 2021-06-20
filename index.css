@@ -9,6 +9,22 @@
     --text-primary-color:#658ec6;
     --svgcolor1:#6cdbeb;
 }
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: hsla(0, 100%, 100%, 0);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--secondary-grad);
+    border-radius: 4px;
+  }
+
+
 *{
     margin: 0;
     padding: 0;
@@ -23,38 +39,38 @@ background: var(--main-grad);
 height: 100vh;
 width: 100vw;
 /* padding:20px; */
-/* overflow: hidden; */
 display: flex;
 /* vertical-align: middle; */
 }
 .container{
     margin: auto;
-
+    
 }
 .box1{
     background:var(--secondary-grad);
     /* background: rgba( 255, 255, 255, 0.30 ); */
-/* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
-/* backdrop-filter: blur( 6.0px ); */
--webkit-backdrop-filter: blur( 6.0px );
-/* border-radius: 10px; */
-/* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
-/* min-height:80vh; */
-/* min-width:5vw; */
-margin:15px;
-display: flex;
-border-radius: 2rem;
-z-index: 2;
-backdrop-filter: blur(2rem);
-flex-direction: row;
-max-width: 87vw;
-
+    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+    /* backdrop-filter: blur( 6.0px ); */
+    -webkit-backdrop-filter: blur( 6.0px );
+    /* border-radius: 10px; */
+    /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+    /* min-height:80vh; */
+    /* min-width:5vw; */
+    display: flex;
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    flex-direction: row;
+    max-width: 87vw;
+    max-height: 95vh;
+    
 }
 .box2
 {
+    /* margin: 2rem 0px; */
     background:var(--secondary-grad);
     padding-bottom: 40px;
-    padding-top: 20px;
+    padding-top: 15px;
     /* background: rgba( 255, 255, 255, 0.30 ); */
 /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
 /* backdrop-filter: blur( 6.0px ); */
@@ -62,8 +78,10 @@ max-width: 87vw;
 /* border-radius: 10px; */
 /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
 min-height:100%;
-width:340px;
-
+width: 340px;
+max-height: 90vh;
+overflow-y: scroll;
+min-width: 241px;
 display: flex;
 border-radius: 2rem;
 z-index: 2;
@@ -129,7 +147,7 @@ li.home-active-tab a {
 }
 .tabs{
     width:100%;
-    padding: 20px;
+    padding: 20px 0px;
 }
 .tabs a:hover{
     background: white;
@@ -190,6 +208,11 @@ ul{
     margin: 0px auto 15px auto;
 
 }
+.box3{
+    max-height: 90vh;
+    overflow-y: scroll;
+    margin: 2rem 0px;
+}
 
 
 
@@ -198,7 +221,7 @@ ul{
 
 
 .container-box3{
-    padding: 25px;
+    padding: 0px 25px 25px 25px;
     /* overflow: hidden; */
     display: flex;
 }
@@ -247,6 +270,9 @@ ul{
     /* box-shadow: 0px 0px 2px #7575757c; */
 border-radius: 10px;
 
+}
+.card-img img{
+    max-width: 100px;
 }
 .vert-card .card-img{
     height: 100px;
