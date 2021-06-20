@@ -1,0 +1,23 @@
+@media screen and (max-width:740px) {
+    .box1{
+        flex-direction: column;
+        min-width: 95vw;
+    }
+    .box2{
+        width: 100%;
+    }
+    .back{
+        min-height: 100vh;
+        height: auto;
+    }
+    .card{
+        width: 100%;
+    }
+    .inactive{
+        display: none;
+    }
+    li.home-active-tab a {
+        background: none;
+        border-radius: 13px;
+    }
+}

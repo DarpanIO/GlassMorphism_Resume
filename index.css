@@ -114,6 +114,10 @@ li.active-tab a {
     background: white;
     border-radius: 13px;
 }
+li.home-active-tab a {
+    background: white;
+    border-radius: 13px;
+}
 .liimg{
  /* background: url(/photos/programming-code-signs.svg); */
  padding: 0px 10px 0px 0px;
