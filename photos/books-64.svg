@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+	<title>books-64</title>
+	<defs>
+		<image  width="64" height="64" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABAAQMAAACQp+OdAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAAZY7GPHxiRAAAAAJ0Uk5TAP9bkSK1AAAA3klEQVR4nK3SMU7FMAwG4FQdMmZlojchR3M3Ri6AxFUiMbyRI9CK4a1BLHki8o8T2yysdKi/wX8sOQkhrEfQL1bD5sgO1PtZV9SsvajQXpyKfLviTnsTP0hdUHLnGdrpc4IXXAdii3hiGRxrQuYoOHInTlVAN7AMjic+8EwC4MJy6sBLXxS5RgUdaYKpbIZACgkp+uqIBs4GAN+OL8er49GRDH0zNDJUP+d0XBxvjvffWf+G4w+K7Hlil813qWPR1AR9rL4Imt7lCBmKYzew3jfN0ESzp2ChkCwk4+T3A5aiO0i+59inAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="0" />
+</svg>
