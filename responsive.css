@@ -2,13 +2,20 @@
     .box1{
         flex-direction: column;
         min-width: 92vw;
+        min-height: 95vh;
+        height: auto;
+        overflow:unset;
+        max-height:unset;
+        margin: 15px 3px;
     }
     .box2{
         width: 100%;
+        height: auto;
+        max-height: unset;
     }
     .back{
         min-height: 100vh;
-        height: auto;
+        overflow-y: scroll;
     }
     .card{
         width: 100%;
@@ -19,5 +26,10 @@
     li.home-active-tab a {
         background: none;
         border-radius: 13px;
+    }
+    .box3{
+        overflow-y:unset;
+        height: auto;
+        max-height: unset;
     }
 }
