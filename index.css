@@ -278,6 +278,7 @@ border-radius: 10px;
     display: flex;
     width: 50%;
     justify-content: right;
+    flex-flow: row-reverse;
 }
 .card-title{
     /* display: inline-block; */
