@@ -68,7 +68,7 @@ display: flex;
 .box2
 {
     /* margin: 2rem 0px; */
-    background:var(--secondary-grad);
+    /* background:var(--secondary-grad); */
     padding-bottom: 40px;
     padding-top: 15px;
     /* background: rgba( 255, 255, 255, 0.30 ); */
@@ -152,7 +152,6 @@ li.home-active-tab a {
 .tabs a:hover{
     background: white;
     border-radius: 13px;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 ul{
     width: 100%;
@@ -228,7 +227,7 @@ ul{
 .card{
     border-radius: 20px;
     height: 100px;
-    width: 300px;
+    width: 285px;
     background: var(--secondary-grad);
     display: flex;
     padding: 20px;
@@ -255,7 +254,8 @@ ul{
     text-transform:uppercase;
 }
 .card:hover,.vert-card:hover{
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0px 0px 17px -3px rgb(255 255 255);
+
 }
 .cards{
     display:flex;
